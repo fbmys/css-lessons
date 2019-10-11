@@ -92,6 +92,13 @@ table {
 }
 
 /* пользовательские стили  */
+html {
+	background-image: linear-gradient(to bottom, rgb(176,194,213), white 700px);
+}
+html {
+	height: 100%;
+	background-image: linear-gradient(to bottom, rgb(176,194,213), white 700px);
+}
 
 
 
