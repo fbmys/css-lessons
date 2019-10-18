@@ -36,6 +36,34 @@ body {
   background: #E1EEFD url(images/bg_body.png) repeat-x;
 }
 
+.mainNav li{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	list-style: none;
+	float: left;
+    width: 14em;
+}
+
+.mainNav li:last-of-type a {
+	border-right: 1px dashed #999;
+	}
+
+.mainNav a {
+	color: #000;
+	font-size: 11px;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 1px dashed #999;
+	border-bottom: none;
+	padding: 7px 5px;
+	display: block;
+	background-color: #E7E7E7;
+	background-image: url(images/nav.png);
+	background-repeat: no-repeat;
+	background-position: 0 2px;
+}
+
 .main {
   width: 740px;
   margin: 0 auto;
@@ -124,3 +152,58 @@ body {
 	margin-left: 0px;
 	padding-left: 150px;
 }
+
+a:hover{
+	color: #FFF;
+	background-color: #6E97BF;
+	border-bottom-color: #6E97BF;
+}
+a[href^="mailto:"] {
+	color: #666666;
+	border: none;
+	background: url(images/email.gif) no-repeat left center;
+	padding-left: 20px;
+	margin-left: 10px;
+}
+.resources a{
+	border-bottom: none;
+	padding-right: 22px;
+}
+.resources a[href*='://'] {
+	background: url(images/globe.png) no-repeat right top;
+}
+.resources a[href$='.pdf'] {
+	background: url(images/acrobat.png) no-repeat right top;
+}
+.resources a[href$='.zip'] {
+	background: url(images/zip.png) no-repeat right top;
+}
+.resources a[href$='.doc'] {
+	background: url(images/word.png) no-repeat right top;
+}
+.resources a:hover {
+	color: #000;
+	background-color: rgba(255,255,255,.8);
+}
+.resources a:hover {
+	color: #000;
+	background-color: rgba(255,255,255,.8);
+}
+.mainNav a:hover {
+	font-weight: bold;
+	background-color: #B2F511;
+	background-position: 3px 50%;
+	}
+.home .homeLink,
+.feature .featureLink,
+.expert .expertLink,
+.quiz .quizLink,
+.project .projectLink,
+.horoscope .horoscopeLink{
+background-color: #FFFFFF;
+background-position: 3px 100%;
+padding-right: 15px;
+padding-left: 30px;
+font-weight: bold;
+}
+
