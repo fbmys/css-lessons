@@ -15,6 +15,7 @@
 
 .text  
 {   
+
     font: 500 18px 'Lato', sans-serif;
     background: #F8F8F8;
     border-radius: 24px;
@@ -22,7 +23,6 @@
     height: 48px;
     border: none;
     outline: none;
-    margin: 13px 306px 13px 24px;
 }
 .header{
     display: flex;
@@ -60,6 +60,7 @@
 .ots
 {
     padding:  0 44px;
+
 }
 .nav{
 
@@ -92,4 +93,5 @@
 }
 a:hover{
     border-bottom: 3px solid #4285f4;
+
 }
