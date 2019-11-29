@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box; 
+  }
+  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+  table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+  time, mark, audio, video {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      font-size: 100%;
+      vertical-align: baseline;
+  }
+
+
+.text  
+{   
+    font: 500 18px 'Lato', sans-serif;
+    background: #F8F8F8;
+    border-radius: 24px;
+    width: 556px;
+    height: 48px;
+    border: none;
+    outline: none;
+    margin: 13px 306px 13px 24px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 0;
+}
+.src{
+    font-family: 'Lato', sans-serif;
+    background: #F8F8F8;
+    border-radius: 24px;
+    width: 556px;
+    height: 48px;
+}
+.d-flex
+{
+    display: flex;
+}
+
+.settings
+{
+    justify-content: space-between;
+    width: 122px;
+    display: flex;
+    align-items: center;
+}
+.logo
+{
+    padding: 0 44px;
+}
+.mic{
+    border: 0;
+    padding: 0 36px;
+}
+.ots
+{
+    padding:  0 44px;
+}
+.nav{
+
+    height: 48px;
+    align-items: center;
+    justify-content: flex-end;
+    list-style: none;
+    flex: 2;
+}
+.nav a{
+    font: 500 14px 'Lato', sans-serif;
+    text-decoration: none;
+    padding: 0 15px;
+    color: black;
+}
+.nav-side
+{
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+.nav-side a
+{
+    font: 500 14px 'Lato', sans-serif;
+    text-decoration: none;
+    padding: 0 15px;
+    color: black;
+}
+a:hover{
+    border-bottom: 3px solid #4285f4;
+}
