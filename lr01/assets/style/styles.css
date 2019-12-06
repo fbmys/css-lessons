@@ -75,6 +75,7 @@
     text-decoration: none;
     padding: 0 15px;
     color: black;
+    padding-bottom: 10px; 
 }
 .nav-side
 {
@@ -90,8 +91,46 @@
     text-decoration: none;
     padding: 0 15px;
     color: black;
-}
-a:hover{
-    border-bottom: 3px solid #4285f4;
 
+}
+.nav a.active{
+    border-bottom: 5px solid #4285f4;
+}
+.card-tittle{
+    font: 900 18px 'Lato', sans-serif;
+    padding-bottom:20px; 
+}
+.card-link{
+    text-decoration: none;
+    font: 500 15px 'Lato', sans-serif;
+    color: #4285f4;
+}
+
+.content{
+    background: #F2F2F2;
+}
+.card{
+    width: 320px;
+    height: 260px;
+    border-radius: 4px;
+    background: #FFF;
+    margin: 22px;
+    padding: 24px;
+}
+.card-content{
+    font: 500 13px 'Lato', sans-serif;
+}
+.short-link{
+    font: 500 12px 'Lato', sans-serif;
+    text-decoration: none;
+    color:#39912E;
+    padding: 0 0 0 41px;
+}
+.card-content1{
+    font: 500 15px 'Lato', sans-serif;
+    padding-bottom: 50px;
+}
+.wiki{
+    font: 500 12px 'Lato', sans-serif;
+    height: 15px;
 }
