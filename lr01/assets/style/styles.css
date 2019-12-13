@@ -114,7 +114,7 @@
     height: 260px;
     border-radius: 4px;
     background: #FFF;
-    margin: 22px;
+    margin-bottom: 22px;
     padding: 24px;
 }
 .card-content{
@@ -133,4 +133,67 @@
 .wiki{
     font: 500 12px 'Lato', sans-serif;
     height: 15px;
+}
+.content-wrapper{
+    width: 1400px;
+    margin: 0 auto;
+    padding-top: 44px;
+    justify-content: space-between;
+}
+.visit
+{
+    font: 500 14px 'Lato', sans-serif;
+    color: black;
+    padding-left: 25px;
+}
+.save
+{
+    font: 500 14px 'Lato', sans-serif;
+    color: black;
+    padding-left: 25px; 
+}
+.share
+{
+    font: 500 14px 'Lato', sans-serif;
+    color: black;
+    padding-left: 25px; 
+}
+.visit img{
+    padding-right: 7px; 
+}
+.save img{
+    padding-right: 7px; 
+}
+.share img{
+    padding-right: 7px; 
+}
+.more img{
+    padding-left: 7px; 
+}
+.main-list
+{
+    list-style: none; 
+}
+.main-list li{
+    display: inline;
+}
+.block
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 17px 17px 17px 0;
+    align-items: center;
+    background-color: #FFF
+}
+.more
+{
+    font: 500 14px 'Lato', sans-serif;
+    color: black;
+    padding-left: 25px; 
+}
+.card-text
+{
+    font: 500 14px 'Lato', sans-serif;
+    color: #4E4E4E;
+    padding-left: 25px; 
 }
