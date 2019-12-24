@@ -191,13 +191,32 @@
     color: black;
     padding-left: 25px; 
 }
+.text3
+{
+background-color: #FFFFFF
+}
 .card-text
 {
     font: 500 14px 'Lato', sans-serif;
     color: #4E4E4E;
-    padding-left: 25px; 
+    padding-left: 25px;
+    padding: 9px;
 }
-.card2
+.card-text2
 {
-
+    font: 500 17px 'Lato', sans-serif;
+    color: #4285F4;
+    padding-left: 8px;
+    text-decoration: none;
 }
+.card-text3
+{
+    font: 500 13px 'Lato', sans-serif;
+    color: #4E4E4E;
+    padding-left: 25px;
+    padding: 9px;
+}
+.weather
+{
+    padding: 8px 0 0 0;
+    background-image: 
