@@ -1,222 +1,460 @@
-* {
-    box-sizing: border-box; 
-  }
-  html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
-  table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
-  figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
-  time, mark, audio, video {
-      margin: 0;
-      padding: 0;
-      border: 0;
-      font-size: 100%;
-      vertical-align: baseline;
-  }
+        * {
+        box-sizing: border-box;
+    }
+    
+    html,
+    body,
+    div,
+    span,
+    object,
+    iframe,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    blockquote,
+    pre,
+    a,
+    abbr,
+    acronym,
+    address,
+    big,
+    cite,
+    code,
+    del,
+    dfn,
+    em,
+    img,
+    ins,
+    kbd,
+    q,
+    s,
+    samp,
+    small,
+    strike,
+    strong,
+    sub,
+    sup,
+    tt,
+    var,
+    b,
+    u,
+    i,
+    center,
+    dl,
+    dt,
+    dd,
+    ol,
+    ul,
+    li,
+    fieldset,
+    form,
+    label,
+    legend,
+    table,
+    caption,
+    tbody,
+    tfoot,
+    thead,
+    tr,
+    th,
+    td,
+    article,
+    aside,
+    canvas,
+    details,
+    embed,
+    figure,
+    figcaption,
+    footer,
+    header,
+    hgroup,
+    menu,
+    nav,
+    output,
+    ruby,
+    section,
+    summary,
+    time,
+    mark,
+    audio,
+    video {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+    }
+    
+    .text {
+        font: 500 18px 'Lato', sans-serif;
+        background: #F8F8F8;
+        border-radius: 24px;
+        width: 556px;
+        height: 48px;
+        border: none;
+        outline: none;
+    }
+    
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 24px 0;
+    }
+    
+    .src {
+        font-family: 'Lato', sans-serif;
+        background: #F8F8F8;
+        border-radius: 24px;
+        width: 556px;
+        height: 48px;
+    }
+    
+    .d-flex {
+        display: flex;
+    }
+    
+    .settings {
+        justify-content: space-between;
+        width: 122px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo {
+        padding: 0 44px;
+    }
+    
+    .mic {
+        border: 0;
+        padding: 0 36px;
+    }
+    
+    .ots {
+        padding: 0 44px;
+    }
+    
+    .nav {
+        height: 48px;
+        align-items: center;
+        justify-content: flex-end;
+        list-style: none;
+        flex: 2;
+    }
+    
+    .nav a {
+        font: 500 14px 'Lato', sans-serif;
+        text-decoration: none;
+        padding: 0 15px;
+        color: black;
+        padding-bottom: 10px;
+    }
+    
+    .nav-side {
+        list-style: none;
+        justify-content: flex-end;
+        display: flex;
+        flex: 1;
+        align-items: center;
+    }
+    
+    .nav-side a {
+        font: 500 14px 'Lato', sans-serif;
+        text-decoration: none;
+        padding: 0 15px;
+        color: black;
+    }
+    
+    .nav a.active {
+        border-bottom: 5px solid #4285f4;
+    }
+    
+    .card-tittle {
+        font: 900 18px 'Lato', sans-serif;
+        padding-bottom: 20px;
+    }
+    
+    .card-link {
+        text-decoration: none;
+        font: 500 15px 'Lato', sans-serif;
+        color: #4285f4;
+    }
+    
+    .content {
+        background: #F2F2F2;
+    }
+    
+    .card {
+        width: 320px;
+        height: 260px;
+        border-radius: 4px;
+        background: #FFF;
+        margin-bottom: 22px;
+        padding: 24px;
+    }
+    
+    .card-content {
+        font: 500 13px 'Lato', sans-serif;
+    }
+    
+    .short-link {
+        font: 500 12px 'Lato', sans-serif;
+        text-decoration: none;
+        color: #39912E;
+        padding: 0 0 0 41px;
+    }
+    
+    .card-content1 {
+        font: 500 15px 'Lato', sans-serif;
+        padding-bottom: 50px;
+    }
+    
+    .wiki {
+        font: 500 12px 'Lato', sans-serif;
+        height: 15px;
+    }
 
+    .blue-flight {
+        width: 320px;
+        height: 120px;
+        background: #4285F4;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+        border-radius: 4px;
+        margin-bottom: 22px;
+        padding: 26px 24px 22px;
+        box-sizing: border-box;
+        position: relative;
+    }
+    .flights {
+        display: inline-block;
+        line-height: 22px;
+        color: #FFFFFF;
+        font: 900 18px 'Lato';
+        letter-spacing: 0.75px;
+        padding-bottom: 15px;
+    }
 
-.text  
-{   
+    .hotels-font
+    {
+        color: white;
+        font: 500 13px 'Lato', sans-serif
+    }
 
-    font: 500 18px 'Lato', sans-serif;
-    background: #F8F8F8;
-    border-radius: 24px;
-    width: 556px;
-    height: 48px;
-    border: none;
-    outline: none;
-}
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 24px 0;
-}
-.src{
-    font-family: 'Lato', sans-serif;
-    background: #F8F8F8;
-    border-radius: 24px;
-    width: 556px;
-    height: 48px;
-}
-.d-flex
-{
-    display: flex;
-}
+    .content-wrapper 
+    {
+        width: 1400px;
+        margin: 0 auto;
+        padding-top: 44px;
+        justify-content: space-between;
+    }
+    
+    .visit {
+        font: 500 14px 'Lato', sans-serif;
+        color: black;
+        padding-left: 25px;
+    }
+    
+    .save {
+        font: 500 14px 'Lato', sans-serif;
+        color: black;
+        padding-left: 25px;
+    }
+    
+    .share {
+        font: 500 14px 'Lato', sans-serif;
+        color: black;
+        padding-left: 25px;
+    }
+    
+    .visit img {
+        padding-right: 7px;
+    }
+    
+    .save img {
+        padding-right: 7px;
+    }
+    
+    .share img {
+        padding-right: 7px;
+    }
+    
+    .more img {
+        padding-left: 7px;
+    }
+    
+    .main-list {
+        list-style: none;
+    }
+    
+    .main-list li {
+        display: inline;
+    }
+    
+    .block {
+        display: flex;
+        justify-content: space-between;
+        padding: 17px 17px 17px 0;
+        align-items: center;
+        background-color: #FFF
+    }
+    
+    .more {
+        font: 500 14px 'Lato', sans-serif;
+        color: black;
+        padding-left: 25px;
+    }
+    
+    .text3 {
+        background-color: #FFFFFF
+    }
+    
+    .black-hotel {
+        width: 320px;
+        height: 120px;
+        background: #212121;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+        border-radius: 4px;
+        margin: 28px 24px 22px 0;
+        padding: 26px 24px 22px;
+        box-sizing: border-box;
+    }
 
-.settings
-{
-    justify-content: space-between;
-    width: 122px;
-    display: flex;
-    align-items: center;
-}
-.logo
-{
-    padding: 0 44px;
-}
-.mic{
-    border: 0;
-    padding: 0 36px;
-}
-.ots
-{
-    padding:  0 44px;
+    .card-text {
+        font: 500 14px 'Lato', sans-serif;
+        color: #4E4E4E;
+        padding-left: 25px;
+        padding: 9px;
+    }
+    
+    .card-text2 {
+        font: 500 17px 'Lato', sans-serif;
+        color: #4285F4;
+        padding-left: 8px;
+        text-decoration: none;
+    }
+    
+    .card-text3 {
+        font: 500 13px 'Lato', sans-serif;
+        color: #4E4E4E;
+        padding-left: 25px;
+        padding: 9px;
+    }
+    
+    .weatcher {
+        justify-content: space-between;
+        width: 326px;
+        height: 266px;
+        box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.138162);
+        background: url(../images/bg.png);
+        box-sizing: border-box;
+        position: relative;
+    }
+    .weatcher-amstr
+    {
+        font: 600 13px 'Lato', sans-serif;
+        font-weight: bold;
+        line-height: 16px;
+        margin: 24px 214px 220px 20px; 
+        position: absolute;
+        color: #212121;
+        
+    }
+    .cls
+    {
+        padding-top: 14px;
+        font: 300 60px 'Lato';
+        line-height: 79px;
+        color: #212121;
+        font-weight: 300;
+        margin: 38px 226px 142px 16px;
+        position: absolute;
 
-}
-.nav{
-
-    height: 48px;
-    align-items: center;
-    justify-content: flex-end;
-    list-style: none;
-    flex: 2;
-}
-.nav a{
-    font: 500 14px 'Lato', sans-serif;
-    text-decoration: none;
-    padding: 0 15px;
-    color: black;
-    padding-bottom: 10px; 
-}
-.nav-side
-{
-    list-style: none;
-    justify-content: flex-end;
-    display: flex;
-    flex: 1;
-    align-items: center;
-}
-.nav-side a
-{
-    font: 500 14px 'Lato', sans-serif;
-    text-decoration: none;
-    padding: 0 15px;
-    color: black;
-
-}
-.nav a.active{
-    border-bottom: 5px solid #4285f4;
-}
-.card-tittle{
-    font: 900 18px 'Lato', sans-serif;
-    padding-bottom:20px; 
-}
-.card-link{
-    text-decoration: none;
-    font: 500 15px 'Lato', sans-serif;
-    color: #4285f4;
-}
-
-.content{
-    background: #F2F2F2;
-}
-.card{
-    width: 320px;
-    height: 260px;
-    border-radius: 4px;
-    background: #FFF;
-    margin-bottom: 22px;
-    padding: 24px;
-}
-.card-content{
-    font: 500 13px 'Lato', sans-serif;
-}
-.short-link{
-    font: 500 12px 'Lato', sans-serif;
-    text-decoration: none;
-    color:#39912E;
-    padding: 0 0 0 41px;
-}
-.card-content1{
-    font: 500 15px 'Lato', sans-serif;
-    padding-bottom: 50px;
-}
-.wiki{
-    font: 500 12px 'Lato', sans-serif;
-    height: 15px;
-}
-.content-wrapper{
-    width: 1400px;
-    margin: 0 auto;
-    padding-top: 44px;
-    justify-content: space-between;
-}
-.visit
-{
-    font: 500 14px 'Lato', sans-serif;
-    color: black;
-    padding-left: 25px;
-}
-.save
-{
-    font: 500 14px 'Lato', sans-serif;
-    color: black;
-    padding-left: 25px; 
-}
-.share
-{
-    font: 500 14px 'Lato', sans-serif;
-    color: black;
-    padding-left: 25px; 
-}
-.visit img{
-    padding-right: 7px; 
-}
-.save img{
-    padding-right: 7px; 
-}
-.share img{
-    padding-right: 7px; 
-}
-.more img{
-    padding-left: 7px; 
-}
-.main-list
-{
-    list-style: none; 
-}
-.main-list li{
-    display: inline;
-}
-.block
-{
-    display: flex;
-    justify-content: space-between;
-    padding: 17px 17px 17px 0;
-    align-items: center;
-    background-color: #FFF
-}
-.more
-{
-    font: 500 14px 'Lato', sans-serif;
-    color: black;
-    padding-left: 25px; 
-}
-.text3
-{
-background-color: #FFFFFF
-}
-.card-text
-{
-    font: 500 14px 'Lato', sans-serif;
-    color: #4E4E4E;
-    padding-left: 25px;
-    padding: 9px;
-}
-.card-text2
-{
-    font: 500 17px 'Lato', sans-serif;
-    color: #4285F4;
-    padding-left: 8px;
-    text-decoration: none;
-}
-.card-text3
-{
-    font: 500 13px 'Lato', sans-serif;
-    color: #4E4E4E;
-    padding-left: 25px;
-    padding: 9px;
-}
-.weather
-{
-    padding: 8px 0 0 0;
-    background-image: 
+    }
+    .today {
+        font: 300 13px 'Lato';
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+        letter-spacing: 0.232143px;
+        color: #212121;
+        padding-top: 26px;
+        margin: 146px 262px 98px 22px;
+        position: absolute;
+    }
+    .nine{
+        font: 500 13px 'Lato', sans-serif;
+        margin: 220px 263px 24px 22px;
+        position: absolute;
+    }
+    .dven{
+        font: 500 13px 'Lato', sans-serif;
+        margin: 220px 202px 24px 83px;
+        position: absolute;
+    }
+    .pat{
+        font: 500 13px 'Lato', sans-serif;
+        margin: 220px 82px 24px 203px;
+        position: absolute;
+    }
+    .vosem{
+        font: 500 13px 'Lato', sans-serif;
+        margin: 220px 142px 24px 143px;
+        position: absolute;
+    }
+    .dvad
+    {
+        font: 500 13px 'Lato', sans-serif;
+        margin: 220px 21px 24px 264px;
+        position: absolute;
+    }
+    .transl-eng
+    {
+        justify-content: space-between;
+        width: 332px;
+        height: 120px;
+        box-sizing: border-box;
+        background-color:#FFFFFF;
+        margin-top: 28px;
+        
+    }
+    .Eng
+    {
+        margin: 27px 0 0 24px;
+        font: 600 14px 'Lato', sans-serif;
+        color:#4E4E4E;
+    }
+    .oval
+    {
+        margin: 20px 112px 68px 188px;
+        position: absolute;
+    }
+    .oval1
+    {
+        margin: 20px 68px 68px 232px;
+        position: absolute;
+    }
+    .oval2
+    {
+        margin: 20px 24px 68px 276px;
+        position: absolute;
+    }
+    .thx
+    {
+        font: 600 36px 'Lato', sans-serif;
+        margin: 60px 113px 26px 24px;
+        position: absolute;
+    }
+    .transl-dutch
+    {
+        justify-content: space-between;
+        width: 332px;
+        height: 120px;
+        box-sizing: border-box;
+        background-color:#FFFFFF;
+        margin-top: 28px;    
+    }
